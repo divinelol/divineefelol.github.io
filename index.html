@@ -1,6 +1,9 @@
 <a onclick="PlayMusic()">
     <button>Start Music</button>
 </a>
+<a onclick="StopMusic()">
+    <button>Stop Music</button>
+</a>
 <audio id="myAudio">
                 
     <source src="https://cdn.discordapp.com/attachments/1133293340503314483/1208348887463632896/james_bandz_-_swat_me_maybe.mp3?ex=65e2f598&is=65d08098&hm=45d007fb22317031353d54f345980fa9f788281a95abe5823b13ee04981fd9a1&" type="audio/mpeg">
@@ -90,7 +93,14 @@ background-image: url(https://i.pinimg.com/originals/96/0e/e6/960ee6ddff9b59d816
 <script>
     function PlayMusic() {
 
+var playe=document.getElementById("myAudio");
+
+playe.play();
+}
+function StopMusic() {
+
 var play=document.getElementById("myAudio");
-play.play();
+if(!play.paused)
+play.pause()
 }
  </script>
