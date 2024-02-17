@@ -1,14 +1,3 @@
-<a onclick="PlayMusic()">
-    <button>Start Music</button>
-</a>
-<a onclick="StopMusic()">
-    <button>Stop Music</button>
-</a>
-<audio id="myAudio">
-                
-    <source src="james bandz - swat me maybe.mp3" type="audio/mpeg">
-
-  </audio>     
 
 
 <div style="text-align: center;">
@@ -109,21 +98,3 @@ background-image: url(https://i.pinimg.com/originals/96/0e/e6/960ee6ddff9b59d816
         padding: 20px 30px;
     }
 </style>
-<script>
-    var intervalID = window.setInterval(myCallback, 180000);
-function myCallback() {
-
-}
-    function PlayMusic() {
-
-var playe=document.getElementById("myAudio");
-
-playe.play();
-}
-function StopMusic() {
-
-var play=document.getElementById("myAudio");
-if(!play.paused)
-play.pause()
-}
- </script>
