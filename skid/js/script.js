@@ -16,6 +16,9 @@ if (localStorage.getItem("imgData") === null) {
 
 var currentCase = "case1";
 var acceptMoneyPerClick = 1;
+if (localStorage.getItem("username") === "divine"){
+acceptMoneyPerClick = 20000003838475838377474738374738374
+}
 
 /*=========================Inventory============================*/
 //In inventory: weap skins
