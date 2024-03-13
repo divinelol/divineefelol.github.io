@@ -15,10 +15,8 @@ if (localStorage.getItem("imgData") === null) {
 }
 
 var currentCase = "case1";
-var acceptMoneyPerClick = 1;
-if (localStorage.getItem("username") === "divine"){
-acceptMoneyPerClick = 20000003838475838377474738374738374
-}
+var acceptMoneyPerClick = 10;
+
 
 /*=========================Inventory============================*/
 //In inventory: weap skins
@@ -15662,4 +15660,4 @@ var cases = {
 			weap2: {
 				name: "Galil AR | Rocket Pop WW",
 				price: 0.11,
-				img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczLZAJF7dC_mIGZqOf1Ia_YlWdU-_p8j-3I4IHKhFWmrBZyMT-gcIHDdg42Y1mG8wS2kLvo1pXuupvOnSdgsyIg43iLn0Hj1ElJOvs
+				img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpos
